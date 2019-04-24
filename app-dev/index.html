@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+    <img class="w3-image"
+      src="https://cdn-az.allevents.in/banners/474dd5b0-3eca-11e9-a5a8-8d33744c9f28-rimg-w840-h280-gmir.jpg" alt="Me"
+      width="1500" height="600">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+      <!-- <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
+      <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
+      <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3> -->
+  <!-- Image Uploader -->
+  <div class="container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" id="files" name="files" multiple="multiple" />
+        <p style="text-align: right; margin-top: 20px;">
+          <input type="submit" value="Upload Files" class="btn btn-lg btn-primary" />
+        </p>
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  
+  <!-- you need to include the ShieldUI CSS and JS assets in order for the Upload widget to work -->
+  <link rel="stylesheet" type="text/css"
+    href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+  <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+  
+  <script type="text/javascript">
+    jQuery(function ($) {
+      $("#files").shieldUpload();
+    });
+  </script>
+
+
+
+
+
+
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
+      placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+      ullam corper. Praesent tincidunt sed tellus.</p>
+  </div>
+
+</body>
+
+</html>
