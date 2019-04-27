@@ -1,0 +1,28 @@
+h1 {
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+    text-shadow: 4px 4px rgb(2, 87, 215);
+    font-size: 50px
+}
+
+.instructions {
+    text-align: center;
+    font-size: 180%;
+    font-family: Arial, Helvetica, serif;
+    line-height: 8em;
+    margin-top: -150px;
+    padding: 45px;
+} 
+
+body {
+    background-image: url("https://images3.alphacoders.com/273/thumb-1920-273289.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+form {
+    font-size: 120%;
+    margin-top: -100px;
+    display: block;
+}
