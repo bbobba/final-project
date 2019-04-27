@@ -1,10 +1,11 @@
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 from keras.preprocessing import image
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
+# app-dev/uploads
 
 
 def prepare_image(img):
@@ -20,7 +21,11 @@ def prepare_image(img):
     return image_array
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/uploadfile', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         print(request)
