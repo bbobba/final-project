@@ -1,5 +1,3 @@
-# final-project
-
 # PokePic
 
 ![Pokemon Banner](https://res.cloudinary.com/bbobba/image/upload/v1555160059/pkm-Banner.jpg)
